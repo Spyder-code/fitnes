@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <title>UINSA-Fitness</title>
+        <title>Fitness</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
@@ -18,7 +18,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Fitness Uinsa</a>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Fitness </a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ml-1"></i>
@@ -27,7 +27,6 @@
                     <ul class="navbar-nav text-uppercase ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Service</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Article</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                         @if (Auth::check())
                             @if (!Auth::user()->hasRole('admin'))
@@ -45,7 +44,7 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">Welcome To Fitness Uinsa!</div>
+                <div class="masthead-subheading">Welcome To Fitness!</div>
                 <div class="masthead-heading text-uppercase">Don't Sit Get Fit</div>
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
             </div>
@@ -136,61 +135,6 @@
             </div>
         </section>
 
-        <!-- Team-->
-        <section class="page-section bg-light" id="team">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Our Team</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="{{ asset('user/akmal.jpg') }}" alt="" />
-                            <h4>Dika Akmal</h4>
-                            <p class="text-muted">Programer</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="{{ asset('user/wardah.jpg') }}" alt="" />
-                            <h4>Luthfiah Wardah</h4>
-                            <p class="text-muted">Desain</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="{{ asset('user/rike.jpg') }}" alt="" />
-                            <h4>Rike Excella Putri</h4>
-                            <p class="text-muted">Programer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="{{ asset('user/zidan.jpg') }}" alt="" />
-                            <h4>Zidan Catur Pamungkas</h4>
-                            <p class="text-muted">Sistem Analys</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="{{ asset('user/luna.JPG') }}" alt="" />
-                            <h4>Fedora Helau Nana</h4>
-                            <p class="text-muted">Sistem Analys</p>
-                        </div>
-                    </div>
-                    {{-- <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="" />
-                            <h4>Diana Petersen</h4>
-                            <p class="text-muted">Lead Developer</p>
-                        </div>
-                    </div> --}}
-                </div>
-            </div>
-        </section>
-
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
@@ -251,7 +195,7 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left">Copyright © FITNESS UINSA 2020</div>
+                    <div class="col-lg-4 text-lg-left">Copyright © FITNESS  2020</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>

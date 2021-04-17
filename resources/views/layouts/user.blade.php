@@ -27,7 +27,6 @@
                     <ul class="navbar-nav text-uppercase ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url('/') }}#services">Service</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url('/') }}#portfolio">Article</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url('/') }}#team">Team</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url('/') }}#contact">Contact</a></li>
                         @if (Auth::check())
                             @if (!Auth::user()->hasRole('admin'))
